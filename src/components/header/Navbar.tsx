@@ -6,7 +6,7 @@ import SocialLinks from "@/components/header/SocialLinks";
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="sticky top-0 left-0 right-0 z-10 bg-white">
       <Container className="flex justify-between items-center py-6">
         <Logo />
 
