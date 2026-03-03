@@ -1,4 +1,4 @@
-import type { Service } from "@/utils/types";
+import { type Service } from "@/utils/types";
 
 type ServiceListItemProps = {
   service: Service;
