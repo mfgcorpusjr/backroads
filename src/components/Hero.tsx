@@ -5,7 +5,10 @@ import heroImg from "@/assets/images/hero.jpg";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-100 md:h-[calc(100vh-80px)]">
+    <section
+      id="home"
+      className="section relative h-100 md:h-[calc(100vh-80px)]"
+    >
       <img
         src={heroImg}
         alt="Hero"
