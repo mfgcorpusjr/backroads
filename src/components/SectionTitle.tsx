@@ -8,7 +8,7 @@ export default function SectionTitle({
   secondWord,
 }: SectionTitleProps) {
   return (
-    <h4 className="text-4xl text-center font-bold">
+    <h4 className="text-3xl md:text-4xl text-center font-bold">
       {firstWord} <span className="text-primary">{secondWord}</span>
     </h4>
   );

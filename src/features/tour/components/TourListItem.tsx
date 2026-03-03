@@ -2,7 +2,7 @@ import { LucideMapPin, LucideDollarSign, LucideTimer } from "lucide-react";
 
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 
-import { type Tour } from "@/utils/types";
+import { type Tour } from "@/features/tour/utils/types";
 
 type TourListItemProps = {
   tour: Tour;
@@ -28,21 +28,22 @@ export default function TourListItem({ tour }: TourListItemProps) {
 
         <p className="text-sm text-muted-foreground">{tour.description}</p>
 
-        <div className="flex flex-col gap-2 text-xs">
-          <div className="flex items-center gap-1">
-            <LucideMapPin className="size-4" />
-            {tour.location}
-          </div>
+        <div className="flex items-center gap-1">
+          <LucideMapPin className="size-4" />
 
-          <div className="flex items-center gap-1">
-            <LucideDollarSign className="size-4" />
-            {tour.price}
-          </div>
+          <span className="text-xs">{tour.location}</span>
+        </div>
 
-          <div className="flex items-center gap-1">
-            <LucideTimer className="size-4" />
-            {tour.duration} days
-          </div>
+        <div className="flex items-center gap-1">
+          <LucideDollarSign className="size-4" />
+
+          <span className="text-xs">{tour.price}</span>
+        </div>
+
+        <div className="flex items-center gap-1">
+          <LucideTimer className="size-4" />
+
+          <span className="text-xs">{tour.duration} days</span>
         </div>
       </CardContent>
     </Card>
