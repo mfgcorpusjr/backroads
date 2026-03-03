@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Tours from "@/components/Tours";
+import Footer from "@/components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,8 @@ export default function App() {
       <Services />
 
       <Tours />
+
+      <Footer />
     </>
   );
 }
