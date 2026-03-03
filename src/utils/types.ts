@@ -11,3 +11,10 @@ export type SocialLink = {
   href: string;
   icon: LucideIcon;
 };
+
+export type Service = {
+  id: number;
+  icon: LucideIcon;
+  title: string;
+  description: string;
+};

@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Container from "@/components/Container";
 import SectionTitle from "@/components/SectionTitle";
 
@@ -34,6 +35,10 @@ export default function About() {
               libero fugiat? Expedita nostrum corrupti quo dolorem quasi et.
               Qui, suscipit.
             </p>
+
+            <Button size="sm" className="cursor-pointer">
+              Read More
+            </Button>
           </div>
         </div>
       </Container>
