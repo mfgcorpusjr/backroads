@@ -15,7 +15,7 @@ export default function TourListItem({ tour }: TourListItemProps) {
         <img
           src={tour.image}
           alt={tour.title}
-          className="md:h-48 object-cover"
+          className="w-full md:h-48 object-cover"
         />
 
         <div className="absolute bottom-2 right-0 bg-primary p-1 text-xs text-white">
