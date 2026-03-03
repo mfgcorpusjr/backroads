@@ -8,10 +8,10 @@ export default function About() {
   return (
     <section id="about" className="section">
       <Container className="py-24 space-y-12">
-        <SectionTitle primary="About" secondary="Us" />
+        <SectionTitle firstWord="About" secondWord="Backroads" />
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="border-8 border-primary rounded-4xl">
+          <div className="border-4 border-dashed border-primary rounded-4xl">
             <img
               src={aboutImg}
               alt="About"

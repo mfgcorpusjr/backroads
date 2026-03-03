@@ -125,4 +125,7 @@
     font-family: "Inter", sans-serif;
     @apply bg-background text-foreground;
   }
+  .section {
+    scroll-margin-top: 80px;
+  }
 }

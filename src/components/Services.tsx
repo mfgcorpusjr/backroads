@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <section id="services" className="section bg-muted">
       <Container className="py-24 space-y-12">
-        <SectionTitle primary="Our" secondary="Services" />
+        <SectionTitle firstWord="Our" secondWord="Services" />
 
         <div className="flex flex-col md:flex-row items-center gap-8">
           {services.map((service) => (

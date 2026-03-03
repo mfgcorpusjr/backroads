@@ -10,7 +10,7 @@ type TourListItemProps = {
 
 export default function TourListItem({ tour }: TourListItemProps) {
   return (
-    <Card className="w-full pt-0 overflow-hidden">
+    <Card className="w-full pt-0 overflow-hidden shadow-none">
       <CardHeader className="relative p-0">
         <img
           src={tour.image}

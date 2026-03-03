@@ -57,7 +57,7 @@ export const tours: Tour[] = [
     date: "Mar 2, 2026",
     title: "Tibet Adventure",
     description:
-      "Lorem ipsum dolor sit amet consecte adipisicing elit. Placeat nostrum in inventore porro tempora",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     location: "China",
     price: 2100,
     duration: 6,
@@ -68,7 +68,7 @@ export const tours: Tour[] = [
     date: "Feb 25, 2026",
     title: "Best of Java",
     description:
-      "Lorem ipsum dolor sit amet consecte adipisicing elit. Placeat nostrum in inventore porro tempora",
+      "Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.",
     location: "Indonesia",
     price: 1400,
     duration: 11,
@@ -79,7 +79,7 @@ export const tours: Tour[] = [
     date: "Feb 20, 2026",
     title: "Explore Hongkong",
     description:
-      "Lorem ipsum dolor sit amet consecte adipisicing elit. Placeat nostrum in inventore porro tempora",
+      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos consectetur adipiscing elit.",
     location: "Hongkong",
     price: 5000,
     duration: 8,
@@ -90,7 +90,7 @@ export const tours: Tour[] = [
     date: "Jan 10, 2026",
     title: "Kenya Highlights",
     description:
-      "Lorem ipsum dolor sit amet consecte adipisicing elit. Placeat nostrum in inventore porro tempora",
+      "Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.",
     location: "Kenya",
     price: 3300,
     duration: 20,

@@ -16,7 +16,7 @@ export default function Footer() {
           itemClassName="text-white"
         />
 
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-muted-foreground text-center">
           Copyright &copy; Backroads Travel Tours Company{" "}
           {new Date().getFullYear()}. All rights reserved.
         </p>

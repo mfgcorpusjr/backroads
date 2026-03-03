@@ -1,15 +1,15 @@
 type SectionTitleProps = {
-  primary: string;
-  secondary: string;
+  firstWord: string;
+  secondWord: string;
 };
 
 export default function SectionTitle({
-  primary,
-  secondary,
+  firstWord,
+  secondWord,
 }: SectionTitleProps) {
   return (
     <h4 className="text-4xl text-center font-bold">
-      {primary} <span className="text-primary">{secondary}</span>
+      {firstWord} <span className="text-primary">{secondWord}</span>
     </h4>
   );
 }
