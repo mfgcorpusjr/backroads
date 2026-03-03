@@ -17,7 +17,7 @@ export default function Footer() {
         />
 
         <p className="text-sm text-muted-foreground text-center">
-          Copyright &copy; Backroads Travel Tours Company{" "}
+          Copyright &copy; BackRoads Travel Tours Company{" "}
           {new Date().getFullYear()}. All rights reserved.
         </p>
       </Container>
